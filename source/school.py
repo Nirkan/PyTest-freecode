@@ -11,7 +11,7 @@ class Classroom:
 
 
     def add_student(self, student):
-        if len(self.student) < 10:
+        if len(self.students) < 10:
             self.students.append(student)
         else:
             raise TooManyStudents
